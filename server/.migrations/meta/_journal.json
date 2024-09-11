@@ -8,6 +8,13 @@
       "when": 1726085859082,
       "tag": "0000_quick_mentor",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1726088080840,
+      "tag": "0001_safe_kitty_pryde",
+      "breakpoints": true
     }
   ]
 }
