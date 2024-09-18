@@ -22,6 +22,7 @@ export async function getWeekPendingGoals() {
       .from(goals)
       .where(lte(goals.createdAt, lastDayOfWeek))
     // selecionando as metas onde a data de criação seja menor ou igual que o ultimo dia da semana
+    // todas as metas que foram criadas antes ou durante a semana atual
   )
 
   const goalCompletionCounts = db.$with('goal_completions_counts').as(
